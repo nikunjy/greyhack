@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Tweet {
-	public String name;
-	public int id; 
+	public String userName;
+	public int userId; 
+	public int tweetId;
 	public String image_url; 
 	public double lattitude; 
 	public double longitude; 
